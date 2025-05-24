@@ -1,0 +1,37 @@
+[
+  {
+    "Fecha": "2025-05-23",
+    "Cantidad": 10.0,
+    "Monto": 193.412,
+    "Moneda Destino": "MXN",
+    "Moneda Base": "USD"
+  },
+  {
+    "Fecha": "2025-05-23",
+    "Cantidad": 60.0,
+    "Monto": 1160.472,
+    "Moneda Destino": "MXN",
+    "Moneda Base": "USD"
+  },
+  {
+    "Fecha": "2025-05-23",
+    "Cantidad": 50.0,
+    "Monto": 967.0600000000001,
+    "Moneda Destino": "MXN",
+    "Moneda Base": "USD"
+  },
+  {
+    "Fecha": "2025-05-23",
+    "Cantidad": 65.0,
+    "Monto": 1257.178,
+    "Moneda Destino": "MXN",
+    "Moneda Base": "USD"
+  },
+  {
+    "Fecha": "2025-05-23",
+    "Cantidad": 6.0,
+    "Monto": 116.0472,
+    "Moneda Destino": "MXN",
+    "Moneda Base": "USD"
+  }
+]
