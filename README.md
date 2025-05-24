@@ -1,6 +1,7 @@
 
+<h1 align="center"> ConversorDeMonedas </h1>
 
-# ConversorDeMonedas
+
 Conversor de Divisas, creado con Java y consumiendo una API de divisas
 
 
@@ -48,6 +49,8 @@ json
 ]
 
 
+
+
 ## Requisitos
 
 1. Java 17 o superior
@@ -69,6 +72,13 @@ json
 # Licencia
 
 Este proyecto es de uso educativo.
+
+:construction: Proyecto en construcción :construction:
+
+
 <p align="left">
 <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
+
+## Autores
+ [<img src="https://imgs.search.brave.com/kZaSCy3iL3I-N89Ea7_Zp8ohHfMieIga_L1HiM-4Ph8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vdktqNWwy/UHU3bDBUeDdFZ0RU/UHJJNEstU2JHLXkz/Unp0SThtNkpuN215/cy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkw/TXk1bS9kR05rYmk1/dVpYUXZhbkJuL0x6/QTFMems1THpFeEx6/WTIvTHpNMk1GOUdY/elU1T1RFeC9Oall6/TVY5eVJFUnBWR05y/L1RuazFiV1YwVVZJ/elMxSmEvTm1wVFFU/RlpWa00xVW5aRC9j/eTVxY0dj.jpeg" width=115><br><sub>Ulises Ortega</sub>](https://github.com/UlisesOrtg)  
