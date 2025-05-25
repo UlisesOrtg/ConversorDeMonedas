@@ -9,6 +9,24 @@ Conversor de Divisas, creado con Java y consumiendo una API de divisas
 
 Aplicación de consola en Java para realizar conversiones entre distintas monedas latinoamericanas y el dólar estadounidense. Guarda el historial de conversiones en archivos JSON con formato legible.
 
+
+# Propósito y Alcance
+
+Este documento proporciona una visión general completa de la aplicación ConversorDeMonedas, un convertidor de divisas basado en consola Java que permite conversiones bidireccionales entre USD y monedas de América Latina. La aplicación se integra con las API de tipo de cambio externo y mantiene un historial de conversiones persistente a través del almacenamiento de archivos JSON.
+
+Esta descripción general cubre la funcionalidad principal de la aplicación, los patrones de arquitectura y las relaciones de componentes. Para obtener documentación detallada de los componentes, consulte Componentes Básicos. Para obtener detalles de implementación específicos de la integración de API externa, consulte Integración API Externa. Para obtener instrucciones de configuración del entorno de desarrollo, consulte Desarrollo Entorno Configuración.
+
+# Funcionalidad de Aplicación
+
+La aplicación ConversorDeMonedas proporciona una interfaz de consola interactiva para realizar conversiones de moneda con las siguientes capacidades:
+
+Característica	Descripción
+Menú Interactivo	Selección basada en consola de 8 pares de divisas bidireccionales
+Tarifas en Tiempo Real	Integración con exchangerate-api.com para los tipos de cambio actuales
+Historial de Conversión	Almacenamiento persistente de todas las conversiones en formato JSON
+Monedas Apoyadas	USD, ARS (Peso Argentino), BRL (Real Brasileño), COP (Peso Colombiano), MXN (Peso Mexicano)
+La aplicación funciona a través de un simple bucle de menú donde los usuarios seleccionan tipos de conversión, cantidades de entrada, ven resultados y guardan automáticamente los registros de conversión en archivos JSON específicos de la moneda.
+
 ## Características
 
 - Menú interactivo para seleccionar el tipo de conversión.
@@ -22,6 +40,19 @@ Aplicación de consola en Java para realizar conversiones entre distintas moneda
 2. Selecciona la conversión deseada en el menú.
 3. Ingresa el monto a convertir.
 4. Visualiza el resultado y revisa el historial en los archivos JSON generados.
+
+# Pila de Tecnología y Patrones de Arquitectura
+
+Tecnologías Core
+
+   Componente	         /Tecnología	                                 /Propósito
+-  Idioma	             / Java 17+	                             / Desarrollo de aplicaciones básicas
+- Procesamiento JSON	 / Biblioteca gson	                     / Serialización/deserialización de datos de intercambio
+- Cliente HTTP	       / Cliente HTTP incorporado de Java	     / Comunicación API externa
+- Almacenamiento
+  de Datos	           / JSON basado en archivos	             / Historial de conversión persistente
+- Desarrollo
+  Medio Ambiente	     / IDEA IntelliJ	                       / Configuración IDE y gestión de proyectos
 
 ## Ejemplo de menú
 
